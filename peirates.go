@@ -1,4 +1,4 @@
-package peirates
+package main
 
 // Peirates - an Attack tool for Kubernetes clusters
 
@@ -12,6 +12,8 @@ import (
 	"strings"
 
 	"github.com/ergochat/readline"
+
+	"github.com/inguardians/peirates/internal"
 )
 
 // Verbosity mode - if set to true, DEBUG messages will be printed to STDOUT.
